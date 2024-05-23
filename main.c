@@ -41,6 +41,7 @@ unsigned int DaysToMonthEnd(unsigned int day, unsigned int month)
 
 int main()
 {
+  printf("Hello Merito! ");
   unsigned int day = 20;
   unsigned int month = 5 ;
   unsigned int year = 2024;
