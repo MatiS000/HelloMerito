@@ -38,8 +38,13 @@ unsigned int DaysToMonthEnd(unsigned int day, unsigned int month)
 }
 
 
+
 int main()
 {
-    printf("Dni do konca miesiaca: %d", DaysToMonthEnd(6, 2));
+  unsigned int day = 20;
+  unsigned int month = 5 ;
+  unsigned int year = 2024;
+  printf("Dzisiaj jest: %d.%d.%dr.", day, month, year);  
+  printf("Dni do konca miesiaca: %d", DaysToMonthEnd(day, month));
 	return 0;
 }
