@@ -10,5 +10,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-    return 0;
+    printf("Hello World");
+	return 0;
 }
