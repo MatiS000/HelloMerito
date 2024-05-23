@@ -10,5 +10,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-    return 0;
+unsigned int day;
+unsigned int month;
+unsigned int year;
+
+	return 0;
 }
