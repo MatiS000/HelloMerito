@@ -10,9 +10,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-unsigned int day;
-unsigned int month;
-unsigned int year;
+unsigned int day = 20;
+unsigned int month = 5 ;
+unsigned int year = 2024;
+printf("Dzisiaj jest: %d.%d.%dr.", day, month, year);
 
 	return 0;
 }
